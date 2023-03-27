@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ping-hero {
+  max-width: 64rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 7.2rem;
+}
+
+.ping-heading {
+  font-size: 4.8rem;
+  font-weight: 300;
+  color: rgb(150, 150, 150);
+  margin-top: 4rem;
+  margin-bottom: 1.4rem;
+}
+
+.ping-heading span {
+  font-weight: 700;
+  color: rgb(21, 31, 41);
+}
+
+.sub-heading {
+  font-size: 2rem;
+  margin-bottom: 3.6rem;
+}
+
+.email-form {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6rem;
+  margin-bottom: 8rem;
+}
+
+.email-form-mobile-gap {
+  gap: 0;
+}
+
+.email-form input {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(21, 31, 41);
+  border: solid 1px rgba(150, 150, 150, 0.5);
+  border-radius: 100px;
+  padding: 1.79rem 2.8rem;
+  padding-right: 82%;
+}
+
+.email-form input::placeholder {
+  color: rgba(150, 150, 150, 0.5);
+}
+
+.email-form input:focus {
+  outline: none !important;
+  border: solid 1px rgb(79, 125, 243);
+}
+
+.submit-btn {
+  justify-self: right;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Libre Franklin", sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 1.8rem 6rem;
+  background-color: rgb(79, 125, 243);
+  border-radius: 100px;
+  box-shadow: 0 5px 10px 2px rgba(194, 211, 255, 0.5);
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: rgb(114, 151, 245);
+}
+
+.form-message {
+  max-height: max-content;
+  position: absolute;
+  bottom: -2.4rem;
+  left: 3.6rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-1rem);
+  color: rgb(255, 82, 99);
+  transition: transform 0.2s, opacity 0.2s, visibility 0.2s;
+}
+
+.form-message-error {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.form-message-success {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  color: rgb(79, 125, 243);
+}
+
+.illustration {
+  max-width: 100%;
+  margin-bottom: 7.2rem;
+}
+
+.social-media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.social-media-link:link,
+.social-media-link:visited {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.1rem;
+  border: solid 1px rgb(194, 211, 255);
+  border-radius: 100px;
+  transition: background-color 0.2s, filter 0.2s;
+}
+
+.social-media-link:hover,
+.social-media-link:active {
+  background-color: rgb(79, 125, 243);
+  border: solid 1px transparent;
+}
+
+.social-media-link:hover img,
+.social-media-link:active img {
+  filter: invert(100%) sepia(36%) saturate(3317%) hue-rotate(274deg)
+    brightness(128%) contrast(112%);
+}
+
+.social-media-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: invert(50%) sepia(40%) saturate(6276%) hue-rotate(209deg)
+    brightness(102%) contrast(91%);
+}
+
+.footer {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(150, 150, 150);
+  margin-bottom: 4rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: rgb(62, 82, 163);
+}

@@ -1,0 +1,64 @@
+@media (max-width: 26em) {
+  .ping-hero {
+    max-width: 31rem;
+  }
+
+  h1 {
+    margin-top: 8rem;
+  }
+
+  h1 img {
+    width: 20%;
+  }
+
+  .ping-heading {
+    font-size: 2.2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  .email-form {
+    flex-direction: column;
+    text-align: left;
+    gap: 1.2rem;
+    padding: 0;
+    transition: gap 0.2s;
+  }
+
+  .email-form-mobile-gap {
+    gap: 4.4rem;
+  }
+
+  .email-form input {
+    max-width: 29rem;
+    font-size: 1.3rem;
+    padding: 1.29rem 3.2rem;
+    padding-right: 10rem;
+  }
+
+  .submit-btn {
+    font-size: 1.3rem;
+    padding: 1.4rem 11.4rem;
+    z-index: 1;
+  }
+
+  .form-message {
+    font-size: 1.1rem;
+    top: 5.2rem;
+    left: 6.4rem;
+  }
+
+  .form-message-success {
+    left: 8.5rem;
+  }
+
+  .illustration {
+    margin-bottom: 10rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}

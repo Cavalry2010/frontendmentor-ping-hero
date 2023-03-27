@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <main>
+      <div class="container align-center">
+        <div class="ping-hero">
+          <h1>
+            <a href="#"><img src="./images/logo.svg" alt="Ping" /></a>
+          </h1>
+          <h2 class="ping-heading">We are launching <span>soon!</span></h2>
+          <p class="sub-heading">Subscribe and get notified</p>
+          <form class="email-form" name="newsletter-sign-up" novalidate>
+            <div>
+              <input
+                id="mail"
+                type="email"
+                placeholder="Your email address..."
+                name="email"
+                required
+              />
+            </div>
+            <button class="submit-btn">Notify Me</button>
+            <p class="form-message">Please provide a valid email address</p>
+          </form>
+          <img
+            class="illustration"
+            src="./images/illustration-dashboard.png"
+            alt="Dashboard Illustration"
+          />
+          <div class="social-media-box">
+            <a class="social-media-link" href="#"
+              ><img src="./images/facebook-f.svg" alt="Facebook" />
+            </a>
+            <a class="social-media-link" href="#"
+              ><img src="./images/twitter.svg" alt="Twitter" />
+            </a>
+            <a class="social-media-link" href="#"
+              ><img src="./images/instagram.svg" alt="Instagram" />
+            </a>
+          </div>
+          <div class="footer">
+            <p>&copy; Copyright Ping. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandro Perdomo</a>.
+      </p>
+    </footer>
+  </body>
+</html>
