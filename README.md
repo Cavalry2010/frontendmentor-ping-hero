@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-ping-hero-page-with-form-validation-VvhuFYhwF4)
 - Live Site URL: [Ping Coming Soon Hero](https://ping-hero-alejandro.netlify.app)
 
 ## My process
