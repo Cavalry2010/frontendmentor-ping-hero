@@ -9,6 +9,7 @@ class App {
   mail = document.getElementById("mail");
 
   constructor() {
+    this.form.setAttribute("novalidate", "novalidate");
     this.form.addEventListener("submit", this.submitForm.bind(this));
   }
 
@@ -33,6 +34,7 @@ class App {
 
   submitError() {
     this.form.classList.add("email-form-mobile-gap");
+    this.formMsg.textContent = "Please submit a valid email address";
     this.formMsg.classList.add("form-message-error");
     this.mail.style.border = "1px solid rgb(255, 82, 99)";
   }

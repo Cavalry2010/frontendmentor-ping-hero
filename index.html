@@ -27,12 +27,14 @@
     <main>
       <div class="container align-center">
         <div class="ping-hero">
-          <h1>
-            <a href="#"><img src="./images/logo.svg" alt="Ping" /></a>
-          </h1>
-          <h2 class="ping-heading">We are launching <span>soon!</span></h2>
+          <div class="logo-box">
+            <a href="#"
+              ><img class="logo" src="./images/logo.svg" alt="Ping"
+            /></a>
+          </div>
+          <h1 class="ping-heading">We are launching <span>soon!</span></h1>
           <p class="sub-heading">Subscribe and get notified</p>
-          <form class="email-form" name="newsletter-sign-up" novalidate>
+          <form class="email-form" name="newsletter-sign-up">
             <div>
               <input
                 id="mail"
@@ -40,10 +42,11 @@
                 placeholder="Your email address..."
                 name="email"
                 required
+                aria-describedby="email-alert"
               />
+              <p id="email-alert" class="form-message" aria-live="polite"></p>
             </div>
-            <button class="submit-btn">Notify Me</button>
-            <p class="form-message">Please provide a valid email address</p>
+            <button class="submit-btn" type="submit">Notify Me</button>
           </form>
           <img
             class="illustration"

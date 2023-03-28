@@ -3,11 +3,11 @@
     max-width: 31rem;
   }
 
-  h1 {
+  .logo-box {
     margin-top: 8rem;
   }
 
-  h1 img {
+  .logo {
     width: 20%;
   }
 
